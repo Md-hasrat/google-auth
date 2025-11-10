@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"No tests specified\" && exit 0",
+    "test:unit": "echo \"No unit tests\" && exit 0",
+    "build": "echo \"No build step\" && exit 0"
   },
   "keywords": [],
   "author": "",
